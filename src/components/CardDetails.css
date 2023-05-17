@@ -1,0 +1,26 @@
+.card-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .card-details img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  
+  .card-details h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .card-details p {
+    font-size: 1.2rem;
+    text-align: center;
+    max-width: 50%;
+  }
+  

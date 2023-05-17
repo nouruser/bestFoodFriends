@@ -1,0 +1,37 @@
+.video-section {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .video-section h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .video-section p {
+    font-size: 16px;
+    color: #888;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Set the aspect ratio (here it's 16:9) */
+  
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    width: 188vh;
+    height: 100%;
+    background-color: white;
+    padding-bottom: 50px;
+  }
+  
