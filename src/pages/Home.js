@@ -10,8 +10,8 @@ function Home() {
   return (
     <>
       <HeroSection />
-      <StatisticsSection/>
       <Cards />
+      <StatisticsSection/>
       <VideoSection/>
       <Footer />
     </>

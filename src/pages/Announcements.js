@@ -42,8 +42,12 @@ const Announcements = () => {
   if (!signedIn) {
     return (
       <>
-      <div>
-        Please <Link to='/signin'>sign in</Link> to view announcements.
+      <div style={{ alignContent: 'center', justifyContent:'center', alignItems:'center' , width:'600px', height:'500px', marginLeft:'31%'}}> 
+        <img src="images/img-16.jpeg" alt="Une legende" className="picture" />
+      </div>
+      <div style={{ textAlign: 'center', marginTop: '50px' , marginBottom: '70px', textDecoration:'none'}}>
+        
+        <h1> Veuillez <Link to='/signin'>s'authentifier</Link> pour votre vos annonces.</h1>
       </div>
       <Footer/>
       </>

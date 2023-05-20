@@ -1,6 +1,15 @@
 import React from 'react';
 import '../App.css';
+import Footer from '../components/Footer';
+import StatisticsSection from '../components/StatisticsSection';
+import VideoSection from '../components/VideoSection'
 
 export default function About() {
-  return <h1 className='about'>A propos</h1>;
+  return (
+    <>
+      <StatisticsSection/>
+      <VideoSection/>
+      <Footer />
+    </>
+  );
 }

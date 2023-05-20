@@ -4,40 +4,47 @@
   align-items: center;
   justify-content: center;
   background-color: white;
-  height: 450px;
+  height: 850px;
   width: 100%;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
   padding: 20px;
-  border-top: black solid 10px;
-  padding-bottom: 6px;
+  padding-bottom: 30px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-  border-bottom: #c2c2c2 solid 3px;
 }
 
 .statistics-container h1 {
+  text-align: center;
   font-size: 35px;
   font-weight: 300;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
-  color: #7993e6;
-  margin-bottom: 30px;
-  margin-top: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande','Lucida Sans', Arial, sans-serif;
+  color: #164267;
   font-weight: bold;
+}
+
+.picture-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.picture {
+  width: 100%;
+  height: auto;
 }
 
 .statistics-items {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  margin-top: 40px;
+  margin-bottom: 30px;
+  
 }
 
 .statistics-item {
   text-align: center;
   padding: 10px;
-  border: 1px solid #ddd;
   border-radius: 4px;
-  margin: 0 5px;
   justify-content: space-between;
   animation: fadeIn 1s ease-in-out;
 }
@@ -51,7 +58,7 @@
 
 .statistics-label {
   font-size: 25px;
-  color: #888;
+  color: #223b52;
 }
 
 @keyframes fadeIn {
