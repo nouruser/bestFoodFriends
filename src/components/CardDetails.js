@@ -1,5 +1,5 @@
 import React from 'react';
-import './CardDetails.css';
+import '../assets/CardDetails.css';
 import Footer from './Footer';
 function CardDetails(props) {
   const { src, text, text2, label } = props.location.state;

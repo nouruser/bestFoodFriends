@@ -1,12 +1,12 @@
 import React from 'react';
-import './StatisticsSection.css';
+import '../assets/StatisticsSection.css';
 
 const StatisticsSection = () => {
   return (
     <div className="statistics-container">
       <h1> La plateforme Best Food Friend et ses partenaires ont pu de : </h1>
       <div className="picture-container">
-        <img src="images/img-15.jpeg" alt="Your Picture" className="picture" />
+        <img src="images/img-15.jpeg" alt="Une illustration" className="picture" />
       </div>
 
       <div className="statistics-items">

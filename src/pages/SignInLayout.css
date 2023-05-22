@@ -2,12 +2,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #333333;
+    height: 800px;
+    /* background-color: #D5DBE6; */
+    background-color: slategrey;
   }
   
   .sign-in-form {
     width: 500px;
+    height: 400px;
     padding: 50px;
     background-color: #fff;
     border-radius: 15px;
@@ -15,9 +17,13 @@
   }
   
   .sign-in-form h2 {
+    text-align: center;
+    justify-content: center;
     margin-bottom: 20px;
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 32px;
+    font-weight: 600;
+    color: #041320;
+    margin-bottom: 30px;
   }
   
   .form-group {
@@ -27,8 +33,9 @@
   .form-group label {
     display: block;
     margin-bottom: 5px;
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 300;
+    color: #041C29;
   }
   
   .form-group input {
@@ -47,13 +54,13 @@
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #666666;
-    color: #fff;
-    font-size: 16px;
+    background-color: #f4f4f4;
+    color: #164267;
+    font-size: 20px;
     cursor: pointer;
   }
   
   button[type='submit']:hover {
-    background-color: #808080;
+    background-color: #5374A8;
   }
   

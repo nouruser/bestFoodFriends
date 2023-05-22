@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import '../App.css';
 import { Button } from './Button';
-import './HeroSection.css';
+import '../assets/HeroSection.css';
 import SignIn from '../pages/SignIn';
 import { useHistory } from 'react-router-dom';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 function HeroSection() {
   const [showSignIn, setShowSignIn] = useState(false);
